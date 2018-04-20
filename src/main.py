@@ -57,7 +57,12 @@ def work():
 
     while bdate < +edate:
 
-        datas = get_data(bdate)
+        try:
+            datas = get_data(bdate)
+        except Exception as err:
+            print err
+            continue
+
         print "[PYTHON-asd1],%s %s条数据" % (time_to_datestr(bdate),
                                           len(datas))
 
