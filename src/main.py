@@ -59,12 +59,14 @@ def work():
 
         try:
             datas = get_data(bdate)
-        except Exception as err:
-            print err
-            continue
 
-        print "[PYTHON-asd1],%s %s条数据" % (time_to_datestr(bdate),
-                                          len(datas))
+            print "[PYTHON-asd1],%s %s条数据" % (time_to_datestr(bdate),
+                                              len(datas))
+        except Exception as err:
+            print "[PYTHON-l314]", err
+            continue
+        finally:
+            bdate += 3600
 
         for data in datas:
             commiter.commit_confdata(
@@ -77,8 +79,6 @@ def work():
                 data["subject"],
 
             )
-
-        bdate += 3600
 
         sleep()
 
