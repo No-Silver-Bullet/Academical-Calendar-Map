@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link href="//file.aconf.org/public/css2.0/aconf_cn/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//file.aconf.org/public/css2.0/aconf_cn/common.css" rel="stylesheet">
+    <link href="//file.aconf.org/public/css2.0/aconf_cn/swiper.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+     <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+     <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+   <![endif]-->
+
+    <title>
+        在中国举办的会议-艾会网 - 全球学术会议平台 </title>
+    <link rel="stylesheet" href="//file.aconf.org/public/css2.0/aconf_cn/c-index.css">
+    <link rel="stylesheet" href="/public/AdminLTE/plugins/daterangepicker/daterangepicker-bs3.css">
+
+
+    <script src="//file.aconf.org/public/plugins/jquery/jquery-1.9.1.min.js"></script>
+</head>
+
+<body>
+    <nav class="aconf_top">
+        <div class="container-fluid container">
+            <div class="navbar_head_aconf">
+                <a href="https://www.aconf.cn/u/" class="dlos">
+                    <img src="//file.aconf.org/public/images2.0/aconf_cn/daadl.png" />
+                </a>
+                <a class="aconf_logo_box" href="/">
+                    <img src="//file.aconf.org/public/images2.0/aconf_cn/logo.png" alt="艾会网" style="width: 108px;height: 34px;" />
+                </a>
+                <div class="navbar-a">
+                    <div class="dropdown-l-l">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <i class="icon icon-CN"></i>中国站
+                            <span class="caret"></span>
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="https://www.aconf.org">
+                                    <i class="icon icon-t1 icon-t11-2"></i>国际站 </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <p>服务学术会议 促进学术交流</p>
+                </div>
+            </div>
+            <div>
+                <form class="navbar-form navbar-left alex-navbar-form" method="get" action="/search.html">
+                    <div class="form-group">
+                        <span>
+                            <input type="text" name="k" value="" class="form-control form-control-1 search-conf-control" style="height: 32px;" placeholder="查找会议">
+                            <button type="submit" class="cha">
+                                <i class="icon icon-fd"></i>搜索</button>
+                        </span>
+                        <a href="/create/set.html" class="btn_chi">
+                            <i class="icon icon-j"></i>创建会议</a>
+                    </div>
+                </form>
+                <ul class="top_right navbar-right">
+                    <!-- <p class="nav-dh"> -->
+                    <li class="number">
+                        <i class="icon icon-j icon-dh pull-left alex-navbar-phone-icon"></i>
+                        <span class="top_number">027 8830 3881</span>
+                        <!-- <div class="pull-right alex-navbar-link-phone">商务合作：但老师 027-88303881<br>参会咨询：孙老师 027-88875258</div> -->
+                    </li>
+                    <li class="nav-wx top-nav-wx-group">
+                        <a href="#">
+                            <i class="icon icon-wx"></i>
+                            <span class="top_weixin">微信</span>
+                        </a>
+                        <div class="nav-ewm">
+                            <img class="wechat-two-dimensional" src="//file.aconf.org/public/images2.0/aconf_cn/wechat_two_dimensional.jpg" />
+                            <p>扫一扫关注公众号</p>
+                        </div>
+                    </li>
+                    <li class="top-login-btn-group">
+                        <span class="nav-dl-a">
+                            <a class="ano" href="/login.html?url_direct_to=%2Fc.html%3Fdate_type%3Dstart_date%26date_range%3D%26start_date%3D1514736000%26end_date%3D1514736000">登录</a>
+                            <a href="/signup.html?url_direct_to=%2Fc.html%3Fdate_type%3Dstart_date%26date_range%3D%26start_date%3D1514736000%26end_date%3D1514736000">注册</a>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <script>
+        var user_id = ""; var _self = "%2Fc.html%3Fdate_type%3Dstart_date%26date_range%3D%26start_date%3D1514736000%26end_date%3D1514736000"; var obj_id = 1; var obj_type = 'ACONF'; var module_name = "c"; var action_name = "index"; var _lang = "zh-cn"; var API = "/app.php";
+    </script>
+    <script src="//file.aconf.org/public/js2.0/aconf_cn/bootstrap.min.js"></script>
+    <script src="//file.aconf.org/public/js2.0/aconf_cn/swiper.min.js"></script>
+    <script src="//file.aconf.org/public/js2.0/aconf_cn/common.js"></script>
+
+    <div class="aconf_nav navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="row">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#btn_nav">
+                        <span class="sr-only">切换导航</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <!-- 移动端导航 -->
+                <div class="collapse navbar-collapse" id="btn_nav">
+                    <ul class="nav navbar-nav">
+                        <li class="nav_hover">
+                            <a class="global-nav-item" data-module="index" href="/index.html">首页</a>
+                        </li>
+                        <li class="nav_hover mobile_drop_menu">
+                            <a class="global-nav-item" data-module="conference" href="javascript:;">会议目录</a>
+                            <ul class="mobile_sub_menu">
+                                <li>
+                                    <a class="global-nav-item" data-module="c" href="/c.html">国内会议</a>
+                                </li>
+                                <li>
+                                    <a class="global-nav-item" data-module="g" href="/g.html">海外会议</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav_hover">
+                            <a class="global-nav-item" data-module="sc" href="/sc.html">专业分类</a>
+                        </li>
+                        <li class="nav_hover">
+                            <a class="global-nav-item" data-module="conferenceorganizer" href="/conference_organizer.html">办会机构</a>
+                        </li>
+                        <li class="nav_hover">
+                            <a class="global-nav-item" data-module="product" href="/product.html">办会软件</a>
+                        </li>
+                        <li class="nav_hover">
+                            <a class="global-nav-item" data-module="solution" href="/solution.html">解决方案</a>
+                        </li>
+                        <li class="nav_hover mobile_drop_menu">
+                            <a class="global-nav-item" data-module="service" href="/service.html">会议服务</a>
+                            <ul class="mobile_sub_menu">
+                                <li>
+                                    <a class="global-nav-item" data-module="software_services" href="/service.html#software_services">软件服务</a>
+                                </li>
+                                <li>
+                                    <a class="global-nav-item" data-module="conference_services" href="/service.html#conference_services">会务服务</a>
+                                </li>
+                                <li>
+                                    <a class="global-nav-item" data-module="financial_services" href="/service.html#financial_services">财务服务</a>
+                                </li>
+                                <li>
+                                    <a class="global-nav-item" data-module="publishing_services" href="/service.html#publishing_services">出版服务</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav_hover">
+                            <a class="global-nav-item" data-module="contact" href="/contact.html">联系我们</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- PC端导航 -->
+                <div class="nav_pc">
+                    <ul class="nav navbar-nav">
+                        <li class="nav_hover">
+                            <a class="global-nav-item" data-module="index" href="/index.html">首页</a>
+                        </li>
+                        <li class="nav_hover drop_menu">
+                            <a class="global-nav-item" data-module="conference" href="javascript:;">会议目录</a>
+                            <ul class="sub_menu">
+                                <li>
+                                    <a class="global-nav-item" data-module="c" href="/c.html">国内会议</a>
+                                </li>
+                                <li>
+                                    <a class="global-nav-item" data-module="g" href="/g.html">海外会议</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav_hover">
+                            <a class="global-nav-item" data-module="sc" href="/sc.html">专业分类</a>
+                        </li>
+                        <li class="nav_hover">
+                            <a class="global-nav-item" data-module="conferenceorganizer" href="/conference_organizer.html">办会机构</a>
+                        </li>
+                        <li class="nav_hover">
+                            <a class="global-nav-item" data-module="product" href="/product.html">办会软件</a>
+                        </li>
+                        <li class="nav_hover">
+                            <a class="global-nav-item" data-module="solution" href="/solution.html">解决方案</a>
+                        </li>
+                        <li class="nav_hover drop_menu">
+                            <a class="global-nav-item" data-module="service" href="/service.html">会议服务</a>
+                            <ul class="sub_menu ">
+                                <li>
+                                    <a class="global-nav-item" data-module="software_services" href="/service.html#software_services">软件服务</a>
+                                </li>
+                                <li>
+                                    <a class="global-nav-item" data-module="conference_services" href="/service.html#conference_services">会务服务</a>
+                                </li>
+                                <li>
+                                    <a class="global-nav-item" data-module="financial_services" href="/service.html#financial_services">财务服务</a>
+                                </li>
+                                <li>
+                                    <a class="global-nav-item" data-module="publishing_services" href="/service.html#publishing_services">出版服务</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav_hover">
+                            <a class="global-nav-item" data-module="contact" href="/contact.html">联系我们</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="content-main">
+
+        <div class="information">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ol class="breadcrumb" style="padding-left: 0px;margin-bottom: 0px;">
+                            <li>
+                                <a href="/">首页</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">会议目录</a>
+                            </li>
+                            <li>
+                                <a href="/c.html">国内会议</a>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-9 blog-main">
+                        <div class="information-l">
+                            <h1 class="inbt-h1">
+                                <span class="inbt-span">国内</span>会议</h1>
+                            <ul class="category">
+                                <li class="category-li">
+                                    <span class="category-span c-index-erea">港澳台</span>
+                                    <div class="category-d category-sf">
+                                        <a class='dd-label ' href="/hongkong.html">香港</a>
+                                        <a class='dd-label ' href="/macau.html">澳门</a>
+                                        <a class='dd-label ' href="/taiwan.html">台湾</a>
+                                    </div>
+                                </li>
+                                <li class="category-li">
+                                    <span class="category-span c-index-erea">省直辖市</span>
+                                    <div class="category-d category-sf">
+                                        <a class='dd-label ' href="/cn.html">全 国</a>
+                                        <a class='dd-label ' href="/beijing.html">北京市</a>
+                                        <a class='dd-label ' href="/tianjin.html">天津市</a>
+                                        <a class='dd-label ' href="/shanghai.html">上海市</a>
+                                        <a class='dd-label ' href="/chongqing.html">重庆市</a>
+                                        <a class='dd-label ' href="/hebei.html">河北省</a>
+                                        <a class='dd-label ' href="/shandong.html">山东省</a>
+                                        <a class='dd-label ' href="/shanxi.html">山西省</a>
+                                        <a class='dd-label ' href="/liaoning.html">辽宁省</a>
+                                        <a class='dd-label ' href="/jilin.html">吉林省</a>
+                                        <a class='dd-label ' href="/heilongjiang.html">黑龙江</a>
+                                        <a class='dd-label ' href="/jiangsu.html">江苏省</a>
+                                        <a class='dd-label ' href="/zhejiang.html">浙江省 </a>
+                                        <a class='dd-label ' href="/anhui.html">安徽省</a>
+                                        <a class='dd-label ' href="/fujian.html">福建省 </a>
+                                        <a class='dd-label ' href="/jiangxi.html">江西省</a>
+                                        <a class='dd-label ' href="/henan.html">河南省</a>
+                                        <a class='dd-label ' href="/hubei.html" class="ano">湖北省 </a>
+                                        <a class='dd-label ' href="/hunan.html">湖南省</a>
+                                        <a class='dd-label ' href="/guangdong.html">广东省 </a>
+                                        <a class='dd-label ' href="/hainan.html">海南省</a>
+                                        <a class='dd-label ' href="/sichuan.html">四川省</a>
+                                        <a class='dd-label ' href="/guizhou.html">贵州省</a>
+                                        <a class='dd-label ' href="/yunnan.html">云南省</a>
+                                        <a class='dd-label ' href="/shaanxi.html">陕西省</a>
+                                        <a class='dd-label ' href="/gansu.html">甘肃省</a>
+                                        <a class='dd-label ' href="/qinghai.html">青海省</a>
+                                    </div>
+                                </li>
+                                <li class="category-li">
+                                    <span class="category-span c-index-erea">自治区</span>
+                                    <div class="category-d ">
+                                        <a class='dd-label ' href="/neiamongol.html">内蒙古自治区</a>
+                                        <a class='dd-label ' href="/guangxi.html">广西壮族自治区</a>
+                                        <a class='dd-label ' href="/xizang.html">西藏自治区</a>
+                                        <a class='dd-label ' href="/xinjiang.html">新疆维吾尔自治区</a>
+                                        <a class='dd-label ' href="/ningxia.html">宁夏回族自治区</a>
+                                    </div>
+                                </li>
+                                <li class="category-li-f"></li>
+                            </ul>
+                        </div>
+                        <div class="information-l" style="margin-bottom:10px;">
+                            <form action="/c.html" data-subjet-type="param" method="get" id="search-condition-form">
+                                <div class="posirt-h " id="condition-container">
+                                    <style>
+                                        .glyphicon {
+                                            background: none;
+                                        }
+                                    </style>
+                                    <ul class="posirt-ul">
+                                        <!--    <li class="posirt-asli2">
+                     <a href="/c.html?date_type=start_date&date_range=&start_date=1514736000&end_date=1514736000&p=73&order=asc" class="posirt-as"><i class="icon icon-sst1"></i></a>      </li> -->
+                                        <li class="posirt-asa alex-search-first">
+                                            <div class="pull-left">
+
+                                            </div>
+                                            <span class="sxuans2">
+                                                <div class="xznf xznf-1">
+                                                    <!-- <i class="icon icon-sst1 icon-xmrq"></i> -->
+                                                    <a href="?order=desc" class="posirt-as" id="o_icon" data-order="desc">
+                                                        <i class="icon icon-sst1 alex-sst1-icon"></i>
+                                                    </a>
+                                                    <select name="date_type" class="data-type-select xznf-ipt-1 alex-data-type-select">
+                                                        <option value="start_date" selected>开幕日期</option>
+                                                        <option value="created">录入日期</option>
+                                                        <option value="draft">截稿日期</option>
+                                                    </select>
+                                                    <i class="icon icon-sst1 icon-xmrq alex-conf-icon-date"></i>
+                                                    <input placeholder="选择相应日期范围" value="2018/01/01-2018/01/01" name="date_range" class="laydate-icon xznf-ipt-1 alex-data-type-date-range"
+                                                        id="dateRange">
+                                                    <input type="hidden" name="start_date" id="start_date">
+                                                    <input type="hidden" name="end_date" id="end_date"> </div>
+                                            </span>
+                                        </li>
+                                        <li class="posirt-asa">
+                                            <div class="xznf">
+                                                <i class="icon icon-sst1 icon-sst2 icon-xye"></i>
+                                                <input type="hidden" name="subject" value="" id="subject" />
+                                                <div class="gaojys gaojys2 subject-btn" style="max-width: 150px;overflow: hidden;">
+                                                    选择专业 </div>
+                                            </div>
+                                        </li>
+                                        <li class="posirt-asain">
+                                            <input type="checkbox" id="checkbox_a1" name="is_cfp" class="chk_1" value="Y" />
+                                            <label for="checkbox_a1"></label>
+                                            仅显示征稿
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div id="subject-dialog" style="position:relative;float:left;width: 100%"></div>
+
+                            </form>
+                            <table border="0" class=" table_ric2" cellspacing="0" cellpadding="0">
+                                <tbody class="">
+                                    <tr>
+                                        <th class="sw" style="vertical-align: top;padding-top: 20px;width: 15%">2018/01</th>
+                                        <th class="swa">
+                                            <div class="swa-item">
+                                                <dl class="dls">
+                                                    <dt>
+                                                        <a href="/conf_149666.html" target="_blank">中华中医药学会全科医学分会第二届学术年会</a>
+                                                    </dt>
+                                                    <dd>
+                                                        <p>
+                                                            <span>
+                                                                <i class="icon icon-sst1 icon-xmrq"></i>2018-01-01</span>
+                                                            <span>
+                                                                <i class="icon icon-sst1 icon-sszb"></i>中国 . 山东省 </span>
+                                                        </p>
+                                                    </dd>
+                                                    <dd class="org-group">
+                                                        <i class="icon icon-zoibs pull-left"></i>
+                                                        <div class="sponsored-row pull-left">
+                                                            中华中医药学会 </div>
+                                                    </dd>
+                                                    <dd class="subject-group">
+                                                        <i class="icon icon-subject"></i>
+                                                        <a target="_blank" href="/sc/xxb.html" class="subject-link">中医药</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="swa-item">
+                                                <dl class="dls">
+                                                    <dt>
+                                                        <a href="/conf_120714.html" target="_blank">Tensor Network States: Algorithms and Applications</a>
+                                                    </dt>
+                                                    <dd>
+                                                        <p>
+                                                            <span>
+                                                                <i class="icon icon-sst1 icon-xmrq"></i>2018-01-01~05</span>
+                                                            <span>
+                                                                <i class="icon icon-sst1 icon-sszb"></i>中国 . 北京市 </span>
+                                                        </p>
+                                                    </dd>
+                                                    <dd class="subject-group">
+                                                        <i class="icon icon-subject"></i>
+                                                        <a target="_blank" href="/sc/phs.html" class="subject-link">物理学</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="swa-item">
+                                                <dl class="dls">
+                                                    <dt>
+                                                        <a href="/conf_121474.html" target="_blank">马克思主义海洋文明与“一带一路”学术研讨会</a>
+                                                    </dt>
+                                                    <dd>
+                                                        <p>
+                                                            <span>
+                                                                <i class="icon icon-sst1 icon-xmrq"></i>2018-01-01</span>
+                                                            <span>
+                                                                <i class="icon icon-sst1 icon-sszb"></i>中国 . 海南省 </span>
+                                                        </p>
+                                                    </dd>
+                                                    <dd class="org-group">
+                                                        <i class="icon icon-zoibs pull-left"></i>
+                                                        <div class="sponsored-row pull-left">
+                                                            中国社会科学院马克思主义研究院 海南热带海洋学院 </div>
+                                                    </dd>
+                                                    <dd class="subject-group">
+                                                        <i class="icon icon-subject"></i>
+                                                        <a target="_blank" href="/sc/phl.html" class="subject-link">哲学</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="swa-item">
+                                                <dl class="dls">
+                                                    <dt>
+                                                        <a href="/conf_144878.html" target="_blank">2018第二届全国轻合金材料科学与技术发展研讨会</a>
+                                                    </dt>
+                                                    <dd>
+                                                        <p>
+                                                            <span>
+                                                                <i class="icon icon-sst1 icon-xmrq"></i>2018-01-01</span>
+                                                            <span>
+                                                                <i class="icon icon-sst1 icon-sszb"></i>中国 . 海南省 </span>
+                                                        </p>
+                                                    </dd>
+                                                    <dd class="org-group">
+                                                        <i class="icon icon-zoibs pull-left"></i>
+                                                        <div class="sponsored-row pull-left">
+                                                            中国高新材料工业技术科技交流中心 </div>
+                                                    </dd>
+                                                    <dd class="subject-group">
+                                                        <i class="icon icon-subject"></i>
+                                                        <a target="_blank" href="/sc/mtr.html" class="subject-link">材料科学与工程</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="swa-item">
+                                                <dl class="dls">
+                                                    <dt>
+                                                        <a href="/conf_151082.html" target="_blank">中国领导科学研究会2017年理论研讨会</a>
+                                                    </dt>
+                                                    <dd>
+                                                        <p>
+                                                            <span>
+                                                                <i class="icon icon-sst1 icon-xmrq"></i>2018-01-01</span>
+                                                            <span>
+                                                                <i class="icon icon-sst1 icon-sszb"></i>中国 . 北京市 </span>
+                                                        </p>
+                                                    </dd>
+                                                    <dd class="org-group">
+                                                        <i class="icon icon-zoibs pull-left"></i>
+                                                        <div class="sponsored-row pull-left">
+                                                            中国领导科学研究会 </div>
+                                                    </dd>
+                                                    <dd class="subject-group">
+                                                        <i class="icon icon-subject"></i>
+                                                        <a target="_blank" href="/sc/mgt.html" class="subject-link">管理学</a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <nav aria-label="Page navigation" class="text-center page-1" style="background:#f5faf8;">
+                                <ul class='pagination'>
+                                    <span class="page-outline"> 5 条记录 1/1页</span>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 blog-sidebar skassm">
+                        <div class="information-l skas">
+                            <div class="ddlin" id="chinaMap">
+                                <h1>会议总数</h1>
+                                <img src="//file.aconf.org/public/images2.0/aconf_cn/CNd.jpg" width="100%" style="margin: 9px 0;" />
+                                <div class="ddlind">
+                                    <ul class="ddlindul">
+                                        <li>
+                                            <p class="ddlindp">
+                                                <span id="prev-month-conf-plus">&nbsp;</span>
+                                            </p>
+                                            <p class="ddlindp2">上月新增</p>
+                                        </li>
+                                        <li>
+                                            <p class="ddlindp">
+                                                <span id="this-month-conf-plus">&nbsp;</span>
+                                            </p>
+                                            <p class="ddlindp2">本月新增</p>
+                                        </li>
+                                        <li>
+                                            <p class="ddlindp">
+                                                <span id="all-conf-plus">&nbsp;</span>
+                                            </p>
+                                            <p class="ddlindp2">累计总数</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 优选办会机构 -->
+                        <div id="better-org-container"></div>
+                        <!-- 优选会议 -->
+                        <div id="better-conf-container"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="//file.aconf.org/public/AdminLTE/plugins/moment/moment.min.js"></script>
+        <script src="//file.aconf.org/public/AdminLTE/plugins/daterangepicker/daterangepicker.js"></script>
+        <script src="//file.aconf.org/public/js2.0/aconf_cn/search-condition-bar.js"> </script>
+        <script src="//file.aconf.org/public/js2.0/aconf_cn/c-index.js"> </script>
+
+        <script src="//file.aconf.org/public/js2.0/aconf_cn/org-better-list.js"> </script>
+        <script src="//file.aconf.org/public/js2.0/aconf_cn/conf-better-list.js"> </script>
+
+
+    </div>
+    <script src="//file.aconf.org/public/js2.0/aconf_cn/index.js"></script>
+
+    <script>
+        $(function () {
+            $(window).scroll(function () {
+                if ($(window).scrollTop() >= 152) {
+                    $(".nav-sper").addClass("fixedNav");
+                } else {
+                    $(".nav-sper").removeClass("fixedNav");
+                }
+            });
+        });
+    </script>
+
+    <div class="footer footer50">
+        <div class="container">
+            <div class="text-center">
+                <p class="footer-p a_hover">
+                    <a href="/about.html">关于我们</a>
+                    <span>|</span>
+                    <a href="/case.html">部分案例</a>
+                    <span>|</span>
+                    <a href="javascript:;" class="yyj foot_feedback">意见反馈</a>
+                    <span class="yyj foot_feedback_r">|</span>
+                    <a href="/disclaimer.html">免责声明</a>
+                    <span>|</span>
+                    <a href="/privacy.html">隐私条款</a>
+                    <span class="yyj">|</span>
+                    <a href="/terms_of_service.html">服务条款</a>
+                    <span class="yyj">|</span>
+                    <a href="/contact.html">联系我们</a>
+                </p>
+                <p class="footer-p2 ">
+                    <i class="foodv">
+                        <p class="a_footer">
+                            <a href="https://www.aconf.cn/">
+                                艾会网
+                            </a>
+                            -
+                            <span style="color: green">全球学术会议平台</span>
+                        </p>
+                        © 2013-2017
+                    </i>
+                    武汉企泰信息技术有限责任公司 鄂ICP备09016152号-4
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="//file.aconf.org/public/js2.0/aconf_cn/float-component.js"></script>
+
+    <script type="text/javascript">
+        $(function () {
+            $('a[data-module="' + module_name + '"]').addClass('active')
+        })
+        $(function () {
+            $(".button_2").click(function () {
+                $(".main_s-zg-1").addClass("main_s-zg-1-45");
+                $(".icon-xx").show();
+            })
+            $(".icon-xx").click(function () {
+                $(".main_s-zg-1").removeClass("main_s-zg-1-45");
+                $(".icon-xx").hide();
+            })
+        })
+        /*window.onload = function() {
+          var mySwiper = new Swiper('.index_swiper',{
+            loop: true,
+            pagination : '.pagination',
+            grabCursor: true,
+            paginationClickable: true,
+            autoplay: 5000,
+            //其他设置
+          });
+        }*/
+        $(document).ready(function () {
+            $(".pofoonli2").click(function () {
+                $(".pofoond").addClass("pofoondul1-bott");
+                $(".pofoond").removeClass("pofoondul1-bottn")
+            });
+            $(".pofoond button").click(function () {
+                $(".pofoond").addClass("pofoondul1-bottn");
+                $(".pofoond").removeClass("pofoondul1-bott")
+            });
+            $(".foot_feedback").click(function () {
+                $('.gg-feedback-form-div').toggle();
+            });
+        });
+    </script>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?fec93012bd0e1ab774b3bbf9a8acb827";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
+    <!-- Piwik -->
+    <script type="text/javascript">
+        var _paq = _paq || [];
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function () {
+            var u = "//tongji.aconf.org/";
+            _paq.push(['setTrackerUrl', u + 'piwik.php']);
+            _paq.push(['setSiteId', 2]);
+            var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+            g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = u + 'piwik.js'; s.parentNode.insertBefore(g, s);
+        })();
+    </script>
+    <script>
+        $(function () {
+            $(window).scroll(function () {
+                if ($(window).scrollTop() >= 120) {
+                    $('.aconf_nav').addClass('fix_nav');
+                } else {
+                    $('.aconf_nav').removeClass('fix_nav');
+                }
+            });
+        });
+    </script>
+    <noscript>
+        <p>
+            <img src="//tongji.aconf.org/piwik.php?idsite=2" style="border:0;" alt="" />
+        </p>
+    </noscript>
+    <!-- End Piwik Code -->
+</body>
+
+</html>

@@ -11,7 +11,7 @@ import re
 import requests
 import json
 
-html = requests.get("https://api.aminer.cn/api/rank/conf/list/0").text
+html = requests.get("https://api.aminer.cn/api/rank/conf/list/1").text
 
 data = json.loads(html)
 
